@@ -146,10 +146,10 @@ first div in the grid  and place it in the grid. */
 .container > :first-child {
   grid-column: 1 / -1;
   background-image: url('../images/header.jpg');
-  background-size: none;
-  background-position: center;
-  background-attachment: fixed;
-  height: 500px;
+  object-fit: fill;
+  background-repeat: no-repeat;
+  /* position: relative;
+  background-attachment: fixed; */
 }
 
 
@@ -186,7 +186,6 @@ first div in the grid  and place it in the grid. */
  /* Step 8: Write the selector/rule property to style the .text-block class. */
 .text-block {
   text-align: center;
-  justify-content: center;
   margin: auto;
 }
 
